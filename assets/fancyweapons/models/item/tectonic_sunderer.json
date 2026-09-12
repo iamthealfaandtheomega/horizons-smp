@@ -1,0 +1,6 @@
+{
+  "parent": "fancyweapons:item/handheld_large",
+  "textures": {
+    "layer0": "fancyweapons:item/tectonic_sunderer"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fancyweapons:item/cinderfall_waraxe_in_hand"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [-20, 90, -35],
+      "translation": [3.13, 2.0, 0.13],
+      "scale": [0.68, 0.68, 0.34]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-20, -90, 35],
+      "translation": [3.13, 2.0, 0.13],
+      "scale": [0.68, 0.68, 0.34]
+    },
+    "thirdperson_righthand": {
+      "rotation": [5, 270, -40],
+      "translation": [0, 2, 2],
+      "scale": [1.35, 1.35, 0.675]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [5, -270, 40],
+      "translation": [0, 2, 2],
+      "scale": [1.35, 1.35, 0.675]
+    }
+  }
+}
