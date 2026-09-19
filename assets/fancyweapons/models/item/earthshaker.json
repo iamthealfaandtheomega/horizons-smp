@@ -1,0 +1,4 @@
+{
+  "parent": "fancyweapons:item/handheld_large",
+  "textures": { "layer0": "fancyweapons:item/earthshaker" }
+}
