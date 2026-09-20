@@ -11,7 +11,7 @@ Official custom resource pack for **Horizons SMP Season 9**, providing custom te
 
 * 💬 **Official Discord:** [https://discord.gg/vt588KFn8u](https://discord.gg/vt588KFn8u)
 * 📥 **Direct Pack Download (.zip):** [Download Latest](https://github.com/iamthealfaandtheomega/horizons-smp/raw/main/FancyWeapons-ResourcePack.zip)
-* 🔐 **SHA-1 Checksum:** `15e2b92867462817219cd91bda2014f52e9bb6e3`
+* 🔐 **SHA-1 Checksum:** `adad8de89b0f3d46f71347837f7b4c6b7575649b`
 
 ---
 
@@ -23,6 +23,8 @@ Official custom resource pack for **Horizons SMP Season 9**, providing custom te
 4. **Cinderfall Waraxe** — *Brutal waraxe wreathed in Nether magma and thermal shatter.*
 5. **Glacial Crescent** — *Crescent scythe of primordial permafrost ice.*
 6. **Skyshatter Spear** — *Storm-forged spear with custom spear pose and gale dash.*
+7. **Emerald Pickaxe** — *Gem-crowned mining pick with emerald plating and a polished stone-haft.*
+8. **Veinminer Pickaxe** — *Ore-seam pick with cyan resonance veins and emerald-green core.*
 
 ---
 
@@ -33,7 +35,7 @@ To automatically enforce this resource pack for all players joining your server,
 ```properties
 require-resource-pack=true
 resource-pack=https://github.com/iamthealfaandtheomega/horizons-smp/raw/main/FancyWeapons-ResourcePack.zip
-resource-pack-sha1=15e2b92867462817219cd91bda2014f52e9bb6e3
+resource-pack-sha1=adad8de89b0f3d46f71347837f7b4c6b7575649b
 resource-pack-prompt={"text":"Please accept the Horizons SMP resource pack to see custom weapons!"}
 ```
 
