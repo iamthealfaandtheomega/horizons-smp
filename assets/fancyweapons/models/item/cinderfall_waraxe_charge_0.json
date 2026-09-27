@@ -1,0 +1,6 @@
+{
+  "parent": "fancyweapons:item/cinderfall_waraxe_in_hand",
+  "textures": {
+    "layer0": "fancyweapons:item/cinderfall_waraxe_charge_0"
+  }
+}
