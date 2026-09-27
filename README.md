@@ -11,7 +11,7 @@ Official custom resource pack for **Horizons SMP Season 9**, providing custom te
 
 * 💬 **Official Discord:** [https://discord.gg/vt588KFn8u](https://discord.gg/vt588KFn8u)
 * 📥 **Direct Pack Download (.zip):** [Download Latest](https://github.com/iamthealfaandtheomega/horizons-smp/raw/main/FancyWeapons-ResourcePack.zip)
-* 🔐 **SHA-1 Checksum:** `ed85d6cb231c6de267ef8e3a138f87f6a4e984a1`
+* 🔐 **SHA-1 Checksum:** `5f387aa7f8ae52ceb04af6993b2aea5bb2b1ee99`
 
 ---
 
@@ -35,7 +35,7 @@ To automatically enforce this resource pack for all players joining your server,
 ```properties
 require-resource-pack=true
 resource-pack=https://github.com/iamthealfaandtheomega/horizons-smp/raw/main/FancyWeapons-ResourcePack.zip
-resource-pack-sha1=ed85d6cb231c6de267ef8e3a138f87f6a4e984a1
+resource-pack-sha1=5f387aa7f8ae52ceb04af6993b2aea5bb2b1ee99
 resource-pack-prompt={"text":"Please accept the Horizons SMP resource pack to see custom weapons!"}
 ```
 
