@@ -1,0 +1,76 @@
+{
+  "_comment": "Season 10 weapon sounds: 5 melee hits + 2 abilities. WEAPONS ONLY - both pickaxes deliberately have no custom sound and use vanilla block-break. Fully synthesised from noise + damped inharmonic partials; no sampled, pitched or third-party audio anywhere in this pack. Each impact is a broadband transient crack plus a band-limited noise body plus a comb of mutually inharmonic damped material modes, with the tail's 1/3-octave band energies steered toward a per-weapon target by a measured feedback loop (14 correction iterations + a 3-point tail-scale grid search).",
+  "_design_note": "Chosen by ear over a 3-way bake-off of four independent generators (tools/qwen, tools/deepseek, tools/make_weapon_sounds.py, sound-approaches/compare.html). Qwen's set won on user score: mean 6.2/10 with no file below 5.0, versus 4.2 (Deepseek) and 1.1 (Space Bunny). The winning region measured across all 15 auditioned files is a spectral centroid of roughly 3000-3500 Hz; the whole-set median of the CC0 reference library (5348 Hz) sits in the band that scored worst, so it is recorded here only as provenance, not as a target.",
+  "_notes": {
+    "hit_cinderfall_waraxe": "forged steel; hard broadband crack over a low-mid body, centroid 5052 Hz",
+    "hit_voidreaver_glaive": "dark mid-dominant tear, 4184 Hz centroid, deliberately unsettled tail",
+    "hit_glacial_crescent": "ice; shortest and brightest, 7615 Hz centroid, no sustained ring",
+    "hit_skyshatter_spear": "airy mid whip-crack, 5782 Hz centroid, spam-safe under attribute swapping",
+    "hit_implosion_maul": "heaviest melee blow, 5174 Hz centroid, weight from a 0.18 ms attack not sub-bass",
+    "ability_implosion_maul": "Singularity smash; 0.55 s, biggest event, secondary inward-collapse beat at 220 ms",
+    "ability_skyshatter_spear": "Gale Dash; a SWING not a hit - 86 ms soft attack, no transient, low dominant"
+  },
+  "hit.cinderfall_waraxe": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fancyweapons:hit_cinderfall_waraxe",
+        "stream": false
+      }
+    ]
+  },
+  "hit.voidreaver_glaive": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fancyweapons:hit_voidreaver_glaive",
+        "stream": false
+      }
+    ]
+  },
+  "hit.glacial_crescent": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fancyweapons:hit_glacial_crescent",
+        "stream": false
+      }
+    ]
+  },
+  "hit.skyshatter_spear": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fancyweapons:hit_skyshatter_spear",
+        "stream": false
+      }
+    ]
+  },
+  "hit.implosion_maul": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fancyweapons:hit_implosion_maul",
+        "stream": false
+      }
+    ]
+  },
+  "ability.implosion_maul": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fancyweapons:ability_implosion_maul",
+        "stream": false
+      }
+    ]
+  },
+  "ability.skyshatter_spear": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fancyweapons:ability_skyshatter_spear",
+        "stream": false
+      }
+    ]
+  }
+}
